@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/master_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/pager_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/slider_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@id/slider_pager"
+            app:layout_constraintStart_toStartOf="@id/slider_pager"
+            app:layout_constraintTop_toTopOf="@id/slider_pager"
+            app:tabBackground="@drawable/background_dot"
+            app:tabGravity="center"
+            app:tabIndicator="@drawable/background_tab_indicater"
+            app:tabIndicatorColor="@color/tab_checked_color"
+            app:tabIndicatorGravity="center" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include layout="@layout/master_motion" />
+</FrameLayout>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@+id/start"
+        motion:duration="1000">
+        <KeyFrameSet>
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/imageView"
+                motion:percentX="1"
+                motion:percentY="0" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/imageView2"
+                motion:percentX="1"
+                motion:percentY="0" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/imageView3"
+                motion:percentX="1"
+                motion:percentY="0" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/imageView4"
+                motion:percentX="1"
+                motion:percentY="0" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/imageView5"
+                motion:percentX="1"
+                motion:percentY="0" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/imageView6"
+                motion:percentX="1"
+                motion:percentY="0" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/imageView7"
+                motion:percentX="0.857"
+                motion:percentY="1.121" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/tiger_image"
+                motion:percentX="0"
+                motion:percentY="0.35" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/panda_image"
+                motion:percentX="1"
+                motion:percentY="0.35" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/giraff_image"
+                motion:percentX="1.42"
+                motion:percentY="0" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/hippo_image"
+                motion:percentX="-0.5"
+                motion:percentY="0" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/betroot_image"
+                motion:percentX="0.2"
+                motion:percentY="0.5" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/turnip_image"
+                motion:percentX="0.2"
+                motion:percentY="0.2" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/tomato_image"
+                motion:percentX="0.2"
+                motion:percentY="0.2" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/carrot_image"
+                motion:percentX="0.2"
+                motion:percentY="0.2" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/cucum_image"
+                motion:percentX="0.1"
+                motion:percentY="-0.2" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:motionTarget="@+id/garlic_image"
+                motion:percentX="0.1"
+                motion:percentY="-0.2" />
+            <KeyAttribute
+                motion:motionTarget="@+id/tiger_image"
+                motion:framePosition="50"
+                android:alpha="1"
+                />
+            <KeyAttribute
+                motion:motionTarget="@+id/hippo_image"
+                motion:framePosition="50"
+                android:alpha="1"
+                />
+            <KeyAttribute
+                motion:motionTarget="@+id/giraff_image"
+                motion:framePosition="50"
+                android:alpha="1"
+                />
+            <KeyAttribute
+                motion:motionTarget="@+id/panda_image"
+                motion:framePosition="50"
+                android:alpha="1"
+                />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/tiger_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="300dp"
+            android:alpha="0"
+            motion:layout_constraintEnd_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/panda_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="300dp"
+            android:alpha="0"
+            motion:layout_constraintStart_toEndOf="parent" />
+        <Constraint
+            android:id="@+id/hippo_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="16dp"
+            android:alpha="0"
+            motion:layout_constraintEnd_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/giraff_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="16dp"
+            android:alpha="0"
+            motion:layout_constraintStart_toEndOf="parent" />
+        <Constraint
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:rotation="360"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="74dp"
+            android:rotation="360"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/imageView" />
+        <Constraint
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:rotation="360"
+            motion:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        <Constraint
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:rotation="360"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        <Constraint
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            android:rotation="360"
+            motion:layout_constraintStart_toStartOf="@+id/imageView6"
+            motion:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        <Constraint
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:rotation="360"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/imageView7" />
+        <Constraint
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="61dp"
+            android:rotation="360"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/turnip_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="360dp"
+            motion:layout_constraintEnd_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/betroot_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="248dp"
+            motion:layout_constraintEnd_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/tomato_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintEnd_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/garlic_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="360dp"
+            motion:layout_constraintStart_toEndOf="parent" />
+        <Constraint
+            android:id="@+id/carrot_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintStart_toEndOf="parent" />
+        <Constraint
+            android:id="@+id/cucum_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="360dp"
+            motion:layout_constraintStart_toEndOf="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/tiger_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintEnd_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="parent" />
+        <Constraint
+            android:id="@+id/panda_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintStart_toEndOf="parent"
+            motion:layout_constraintTop_toBottomOf="parent" />
+        <Constraint
+            android:id="@+id/hippo_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintEnd_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/giraff_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintStart_toEndOf="parent" />
+        <Constraint
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="0"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintEnd_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="0"
+            motion:layout_constraintEnd_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="0"
+            motion:layout_constraintEnd_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="parent" />
+        <Constraint
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="0"
+            motion:layout_constraintStart_toEndOf="parent"
+            motion:layout_constraintTop_toBottomOf="parent" />
+        <Constraint
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="0"
+            motion:layout_constraintStart_toEndOf="parent" />
+        <Constraint
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="0"
+            motion:layout_constraintStart_toEndOf="parent" />
+        <Constraint
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="0"
+            motion:layout_constraintBottom_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/turnip_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            motion:layout_constraintBottom_toBottomOf="@+id/veg_layout_temp"
+            motion:layout_constraintStart_toStartOf="@+id/veg_layout_temp" />
+        <Constraint
+            android:id="@+id/betroot_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="39dp"
+            motion:layout_constraintBottom_toTopOf="@+id/turnip_image"
+            motion:layout_constraintEnd_toStartOf="@+id/carrot_image" />
+        <Constraint
+            android:id="@+id/tomato_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="58dp"
+            motion:layout_constraintEnd_toStartOf="@+id/carrot_image"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/garlic_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="74dp"
+            motion:layout_constraintBottom_toBottomOf="@+id/veg_layout_temp"
+            motion:layout_constraintEnd_toEndOf="parent" />
+        <Constraint
+            android:id="@+id/carrot_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="36dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/cucum_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            motion:layout_constraintEnd_toEndOf="@+id/veg_layout_temp"
+            motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+</MotionScene>
