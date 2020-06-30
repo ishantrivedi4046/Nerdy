@@ -6,4 +6,6 @@
     <dimen name="card_corner_radius">16dp</dimen>
     <dimen name="button_width">128dp</dimen>
     <dimen name="button_height">36dp</dimen>
+    <dimen name="planet_height">120dp</dimen>
+    <dimen name="listitem_bottom_margin">16dp</dimen>
 </resources>

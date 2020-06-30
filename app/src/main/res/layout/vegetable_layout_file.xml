@@ -5,7 +5,7 @@
     android:id="@+id/animal_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/veg_background_color">
+    android:background="@color/sunflower_green_900">
 
     <ImageView
         android:id="@+id/veg_back"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:src="@drawable/ic_veg_background"
+        android:src="@drawable/ic_veg_background_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +25,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/veg_button"
         android:elevation="10dp"
-        android:fontFamily="@font/abhaya_libre_bold"
+        android:fontFamily="@font/roboto"
         android:text="@string/button_text"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/veg_back"

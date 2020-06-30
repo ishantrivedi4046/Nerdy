@@ -6,4 +6,18 @@
     <color name="card_color">#63C54D</color>
     <color name="tab_checked_color">#FF8383</color>
     <color name="veg_background_color">#013F19</color>
+    <color name="sunflower_green_700">#005d2b</color>
+    <color name="sunflower_green_900">#1a231e</color>
+    <color name="animal_background_color">#D7E8C6</color>
+    <color name="mercury_back">#FFDB6F</color>
+    <color name="venus_back">#FA6510</color>
+    <color name="mars_back">#FF00B8</color>
+    <color name="saturn_back">#FD003D</color>
+    <color name="jupiter_back">#860000</color>
+    <color name="uranus_back">#D3B119</color>
+    <color name="earth_back">#053009</color>
+    <color name="neptune_back">#010118</color>
+    <color name="hippo_back">#86576C</color>
+    <color name="rabbit_back">#59B18A</color>
+    <color name="elephant_back">#95AB1D</color>
 </resources>
