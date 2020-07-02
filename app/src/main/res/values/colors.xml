@@ -20,4 +20,5 @@
     <color name="hippo_back">#86576C</color>
     <color name="rabbit_back">#59B18A</color>
     <color name="elephant_back">#95AB1D</color>
+    <color name="text_color">#141414</color>
 </resources>

@@ -16,32 +16,68 @@ class AnimalFragment : Fragment() {
             Data(
                 R.drawable.ic_list_lion,
                 R.drawable.list_mercury_back,
-                "Hippo",
-                "Hippo is very Large."
+                "Lion",
+                "Lion is the king of the jungle",
+                R.string.animal_head1,
+                R.string.animal_head2,
+                R.string.animal_head1_text_lion,
+                R.string.animal_head2_text_lion,
+                R.string.lion_fact1,
+                R.string.lion_fact2,
+                R.string.lion_fact3,
+                R.string.lion_fact4,
+                R.string.lion_fact5
             )
         )
         dataList.add(
             Data(
                 R.drawable.ic_list_tiger,
                 R.drawable.list_venus_back,
-                "Hippo",
-                "Hippo is very Large."
+                "Tiger",
+                "Tiger is the biggest species of the cat family",
+                R.string.animal_head1,
+                R.string.animal_head2,
+                R.string.animal_head1_text_tiger,
+                R.string.animal_head2_text_tiger,
+                R.string.tig_fact1,
+                R.string.tig_fact2,
+                R.string.tig_fact3,
+                R.string.tig_fact4,
+                R.string.tig_fact5
             )
         )
         dataList.add(
             Data(
                 R.drawable.ic_list_giraff_inverted,
                 R.drawable.list_saturn_back,
-                "Hippo",
-                "Hippo is very Large."
+                "Giraffe",
+                "Giraffes are the tallest land animals on earth",
+                R.string.animal_head1,
+                R.string.animal_head2,
+                R.string.animal_head1_text_gir,
+                R.string.animal_head2_text_gir,
+                R.string.g_fact1,
+                R.string.g_fact2,
+                R.string.g_fact3,
+                R.string.g_fact4,
+                R.string.g_fact5
             )
         )
         dataList.add(
             Data(
                 R.drawable.ic_list_rabbit,
                 R.drawable.rabbit_list_back,
-                "Hippo",
-                "Hippo is very Large."
+                "Rabbit",
+                "Rabbits are born with their eyes closed and without fur",
+                R.string.animal_head1,
+                R.string.animal_head2,
+                R.string.animal_head1_text_rabbit,
+                R.string.animal_head2_text_rabbit,
+                R.string.rab_fact1,
+                R.string.rab_fact2,
+                R.string.rab_fact3,
+                R.string.rab_fact4,
+                R.string.rab_fact5
             )
         )
         dataList.add(
@@ -49,50 +85,105 @@ class AnimalFragment : Fragment() {
                 R.drawable.ic_hippo,
                 R.drawable.hippo_list_back,
                 "Hippo",
-                "Hippo is very Large."
+                "Hippopotamus is generally considered the third largest land mammal",
+                R.string.animal_head1,
+                R.string.animal_head2,
+                R.string.animal_head1_text_hippo,
+                R.string.animal_head2_text_hippo,
+                R.string.hip_fact1,
+                R.string.hip_fact2,
+                R.string.hip_fact3,
+                R.string.hip_fact4,
+                R.string.hip_fact5
             )
         )
         dataList.add(
             Data(
                 R.drawable.ic_list_panda,
                 R.drawable.list_mars_back,
-                "Hippo",
-                "Hippo is very Large."
+                "Panda",
+                "Giant panda does not hibernate but will shelter in caves or hollow trees in very cold weather",
+                R.string.animal_head1,
+                R.string.animal_head2,
+                R.string.animal_head1_text_panda,
+                R.string.animal_head2_text_panda,
+                R.string.panda_fact1,
+                R.string.panda_fact2,
+                R.string.panda_fact3,
+                R.string.panda_fact4,
+                R.string.panda_fact5
             )
         )
         dataList.add(
             Data(
                 R.drawable.ic_list_leo,
                 R.drawable.list_earth_back,
-                "Hippo",
-                "Hippo is very Large."
+                "Leopard",
+                "Leopard’s tail is just about as long as its entire body",
+                R.string.animal_head1,
+                R.string.animal_head2,
+                R.string.animal_head1_text_leo,
+                R.string.animal_head2_text_leo,
+                R.string.leo_fact1,
+                R.string.leo_fact2,
+                R.string.leo_fact3,
+                R.string.leo_fact4,
+                R.string.leo_fact5
             )
         )
         dataList.add(
             Data(
                 R.drawable.ic_list_bear,
                 R.drawable.list_uranus_back,
-                "Hippo",
-                "Hippo is very Large."
+                "Bear",
+                "Unlike many mammals, bears can see in color",
+                R.string.animal_head1,
+                R.string.animal_head2,
+                R.string.animal_head1_text_bear,
+                R.string.animal_head2_text_bear,
+                R.string.bear_fact1,
+                R.string.bear_fact2,
+                R.string.bear_fact3,
+                R.string.bear_fact4,
+                R.string.bear_fact5
             )
         )
         dataList.add(
             Data(
                 R.drawable.ic_list_pig,
                 R.drawable.list_saturn_back,
-                "Hippo",
-                "Hippo is very Large."
+                "Pig",
+                "Pigs are intelligent animals.",
+                R.string.animal_head1,
+                R.string.animal_head2,
+                R.string.animal_head1_text_pig,
+                R.string.animal_head2_text_pig,
+                R.string.pig_fact1,
+                R.string.pig_fact2,
+                R.string.pig_fact3,
+                R.string.pig_fact4,
+                R.string.pig_fact5
             )
         )
         dataList.add(
             Data(
                 R.drawable.ic_list_elephant,
                 R.drawable.elephant_list_back,
-                "Hippo",
-                "Hippo is very Large."
+                "Elephant",
+                "Elephants can swim,they use their trunk to breathe like a snorkel in deep water",
+                R.string.animal_head1,
+                R.string.animal_head2,
+                R.string.animal_head1_text_ele,
+                R.string.animal_head2_text_ele,
+                R.string.e_fact1,
+                R.string.e_fact2,
+                R.string.e_fact3,
+                R.string.e_fact4,
+                R.string.e_fact5
             )
         )
     }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -105,15 +196,16 @@ class AnimalFragment : Fragment() {
         }
         return rootView
     }
+
     private fun startNewActivity() {
         val intent = Intent(activity, RecycleViewActivity::class.java).apply {
             putExtra(
                 "My ArrayList",
                 dataList
             )
-            putExtra("ANIMAL",true)
+            putExtra("ANIMAL", true)
             putExtra("PLANET", false)
-            putExtra("LIST_BACKGROUND",R.drawable.ic_animal_list_back_three)
+            putExtra("LIST_BACKGROUND", R.drawable.ic_animal_list_back_three)
         }
         startActivity(intent)
     }

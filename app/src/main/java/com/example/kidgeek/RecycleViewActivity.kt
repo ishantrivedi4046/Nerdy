@@ -21,6 +21,7 @@ class RecycleViewActivity : AppCompatActivity(), ItemClickListener {
     private val SHARED_ITEM: String = "DataItem"
     private val SHARED_ITEM_TRANTITION_NAME_1: String = "TrantionName 1"
     private val SHARED_ITEM_TRANTITION_NAME_2: String = "TrantionName 2"
+    private var animal:Boolean = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.setFlags(
@@ -34,7 +35,7 @@ class RecycleViewActivity : AppCompatActivity(), ItemClickListener {
         val intent_value = intent.extras
         var isPlanet:Boolean = false
         if (intent_value != null) {
-            val animal: Boolean = intent_value.getBoolean("ANIMAL")
+            animal= intent_value.getBoolean("ANIMAL")
             isPlanet=intent_value.getBoolean("PLANET")
             if (!animal)
             {
@@ -52,8 +53,10 @@ class RecycleViewActivity : AppCompatActivity(), ItemClickListener {
         recycleView.adapter = RecycleViewAdapter(isPlanet,list, this)
     }
 
-    override fun onItemClick(imageView1: ImageView, imageView2: ImageView, curData: Data) {
+    override fun onItemClick(imageView1: ImageView, imageView2: ImageView, curData: Data, pos:Int) {
         val intent = Intent(this, DetailActivity::class.java).apply {
+            putExtra("Animal",animal)
+            putExtra("Position",pos)
             putExtra(SHARED_ITEM, curData)
             putExtra(SHARED_ITEM_TRANTITION_NAME_1, ViewCompat.getTransitionName(imageView1))
             putExtra(SHARED_ITEM_TRANTITION_NAME_2, ViewCompat.getTransitionName(imageView2))
