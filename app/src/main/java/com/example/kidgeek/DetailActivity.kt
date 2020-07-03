@@ -54,5 +54,9 @@ class DetailActivity : AppCompatActivity() {
             f4.text = getText(cur.f4)
             f5.text = getText(cur.f5)
         }
+        val button = findViewById<ImageView>(R.id.detail_image_back)
+        button.setOnClickListener() {
+            finishAfterTransition()
+        }
     }
 }

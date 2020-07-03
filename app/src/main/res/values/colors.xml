@@ -21,4 +21,6 @@
     <color name="rabbit_back">#59B18A</color>
     <color name="elephant_back">#95AB1D</color>
     <color name="text_color">#141414</color>
+    <color name="splash_color">#000226</color>
+    <color name="veg_button_back">#ffff63</color>
 </resources>

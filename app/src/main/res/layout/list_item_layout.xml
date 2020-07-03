@@ -35,7 +35,7 @@
         android:id="@+id/text_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/atma_bold"
+        android:fontFamily="@font/atma_semibold"
         android:text="Hippo"
         android:textColor="#fff"
         android:textSize="32sp"

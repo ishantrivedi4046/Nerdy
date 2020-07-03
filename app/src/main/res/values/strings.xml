@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KidGeek</string>
+    <string name="app_name">Nerdy</string>
     <string name="placeholder_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</string>
     <string name="button_text">START</string>
     <string name="planet_background">planet_background</string>
@@ -258,4 +258,9 @@
     <string name="cap_fact3">Red capsicums, compared to green, orange and yellow ones, are the sweetest.</string>
     <string name="cap_fact4">The oldest found capsicum was discovered in the remains of pottery from Puebla and Oaxaca, today’s Federal Districts of Mexico.</string>
     <string name="cap_fact5">The misleading name “pepper” (pimiento in Spanish) was given by Christopher Columbus upon bringing the plant back to Europe.</string>
+    <string name="astro">astro</string>
+    <string name="coder">coder</string>
+    <string name="RHanimal">Animals</string>
+    <string name="RHplanets">Planets</string>
+    <string name="RHveg">Veggies</string>
 </resources>

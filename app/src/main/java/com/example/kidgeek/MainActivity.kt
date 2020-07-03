@@ -2,6 +2,8 @@ package com.example.kidgeek
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.transition.Slide
+import android.view.Gravity
 import android.view.WindowManager
 import androidx.constraintlayout.motion.widget.MotionLayout
 import androidx.viewpager.widget.ViewPager

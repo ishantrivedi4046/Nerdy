@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_color"
+    tools:context=".splash">
+
+    <ImageView
+        android:id="@+id/image_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <ImageView
+        android:id="@+id/brand_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="192dp"
+        android:src="@drawable/ic_brandlogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/text_astro"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="48dp"-->
+    <!--        android:fontFamily="@font/orbitron"-->
+    <!--        android:text="@string/astro"-->
+    <!--        android:textAllCaps="true"-->
+    <!--        android:textColor="#fff"-->
+    <!--        android:textSize="48sp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/text_coder"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/image_splash"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/image_splash"-->
+    <!--        app:layout_constraintVertical_bias="1.0" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/text_coder"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="40dp"-->
+    <!--        android:layout_marginEnd="48dp"-->
+    <!--        android:fontFamily="@font/orbitron"-->
+    <!--        android:text="@string/coder"-->
+    <!--        android:textAllCaps="true"-->
+    <!--        android:textColor="#fff"-->
+    <!--        android:textSize="48sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/image_splash"-->
+    <!--        app:layout_constraintVertical_bias="0.0" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

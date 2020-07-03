@@ -52,7 +52,7 @@ class RecycleViewAdapter(
         holder.textDesc.text = cur.desc
         holder.itemView.setOnClickListener()
         {
-            itemClick.onItemClick(holder.imageView, holder.imageBackground, cur,position)
+            itemClick.onItemClick(holder.imageView, holder.imageBackground, cur, position)
         }
     }
 }
