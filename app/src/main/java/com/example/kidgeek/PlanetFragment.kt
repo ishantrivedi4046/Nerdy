@@ -14,7 +14,7 @@ class PlanetFragment : Fragment() {
     init {
         dataList.add(
             Data(
-                R.drawable.ic_list_earth,
+                R.drawable.list_earth,
                 R.drawable.list_earth_back,
                 "Earth",
                 "Earth is the only planet whose english name does not derive from Greek or Roman mythology",
@@ -31,7 +31,7 @@ class PlanetFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_mercury,
+                R.drawable.list_mercury,
                 R.drawable.list_mercury_back,
                 "Mercury",
                 "Mercury is named after the Roman god of commerce, travel, and thievery, Hermes",
@@ -48,7 +48,7 @@ class PlanetFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_mars,
+                R.drawable.list_mars,
                 R.drawable.list_mars_back,
                 "Mars",
                 "Mars is named after the Roman god of war, Ares",
@@ -65,7 +65,7 @@ class PlanetFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_jupiter,
+                R.drawable.list_jupiter,
                 R.drawable.list_jupiter_back,
                 "Jupiter",
                 "Jupiter is named after the supreme Roman god, Zeus",
@@ -82,7 +82,7 @@ class PlanetFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_neptune,
+                R.drawable.list_neptune,
                 R.drawable.list_neptune_back,
                 "Neptune",
                 "Neptune is named after the Roman god of the sea, Poseidon",
@@ -99,7 +99,7 @@ class PlanetFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_venus,
+                R.drawable.list_venus,
                 R.drawable.list_venus_back,
                 "Venus",
                 "Venus is named after the ancient Roman goddess of love and beauty, Aphrodite",
@@ -116,7 +116,7 @@ class PlanetFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_uranus,
+                R.drawable.list_uranus,
                 R.drawable.list_uranus_back,
                 "Uranus",
                 " Uranus is named after the ancient Greek God of the heavens, grandFather of Zeus",
@@ -133,7 +133,7 @@ class PlanetFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_saturn,
+                R.drawable.list_saturn,
                 R.drawable.list_saturn_back,
                 "Saturn",
                 "Saturn is named after the Roman god of agriculture, Cronus, father of zeus",

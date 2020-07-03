@@ -1,13 +1,14 @@
 package com.example.kidgeek
 
 import android.content.Context
+import android.os.SystemClock
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
+import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.view.ViewCompat
 import androidx.recyclerview.widget.RecyclerView
 import java.nio.InvalidMarkException
@@ -18,8 +19,11 @@ class RecycleViewAdapter(
     val itemClick: ItemClickListener
 ) :
     RecyclerView.Adapter<RecycleViewAdapter.RecycleViewHolder>() {
+    private var last: Long = 0
+
     class RecycleViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var imageView: ImageView = itemView.findViewById(R.id.image_front)
+        var imageView: AppCompatImageView =
+            itemView.findViewById(R.id.image_front) as AppCompatImageView
         var imageBackground: ImageView = itemView.findViewById(R.id.image_back)
         var textName: TextView = itemView.findViewById(R.id.text_name)
         var textDesc: TextView = itemView.findViewById(R.id.text_desc)
@@ -52,6 +56,10 @@ class RecycleViewAdapter(
         holder.textDesc.text = cur.desc
         holder.itemView.setOnClickListener()
         {
+            if ((SystemClock.elapsedRealtime() - last) < 1000) {
+                return@setOnClickListener
+            }
+            last=SystemClock.elapsedRealtime()
             itemClick.onItemClick(holder.imageView, holder.imageBackground, cur, position)
         }
     }

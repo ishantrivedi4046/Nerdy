@@ -14,7 +14,7 @@ class AnimalFragment : Fragment() {
     init {
         dataList.add(
             Data(
-                R.drawable.ic_list_lion,
+                R.drawable.list_lion_test,
                 R.drawable.list_mercury_back,
                 "Lion",
                 "Lion is the king of the jungle",
@@ -31,7 +31,7 @@ class AnimalFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_tiger,
+                R.drawable.list_tiger_test,
                 R.drawable.list_venus_back,
                 "Tiger",
                 "Tiger is the biggest species of the cat family",
@@ -48,7 +48,7 @@ class AnimalFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_giraff_inverted,
+                R.drawable.list_giraff_test,
                 R.drawable.list_saturn_back,
                 "Giraffe",
                 "Giraffes are the tallest land animals on earth",
@@ -65,7 +65,7 @@ class AnimalFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_rabbit,
+                R.drawable.list_rabbit_test,
                 R.drawable.rabbit_list_back,
                 "Rabbit",
                 "Rabbits are born with their eyes closed and without fur",
@@ -82,7 +82,7 @@ class AnimalFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_hippo,
+                R.drawable.list_hippo_test,
                 R.drawable.hippo_list_back,
                 "Hippo",
                 "Hippopotamus is generally considered the third largest land mammal",
@@ -99,7 +99,7 @@ class AnimalFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_panda,
+                R.drawable.list_panda_test,
                 R.drawable.list_mars_back,
                 "Panda",
                 "Giant panda does not hibernate but will shelter in caves or hollow trees in very cold weather",
@@ -116,7 +116,7 @@ class AnimalFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_leo,
+                R.drawable.list_leo_test,
                 R.drawable.list_earth_back,
                 "Leopard",
                 "Leopard’s tail is just about as long as its entire body",
@@ -133,7 +133,7 @@ class AnimalFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_bear,
+                R.drawable.list_bear_bear,
                 R.drawable.list_uranus_back,
                 "Bear",
                 "Unlike many mammals, bears can see in color",
@@ -150,7 +150,7 @@ class AnimalFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_pig,
+                R.drawable.list_pig_test,
                 R.drawable.list_saturn_back,
                 "Pig",
                 "Pigs are intelligent animals.",
@@ -167,7 +167,7 @@ class AnimalFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_elephant,
+                R.drawable.list_elephant_test,
                 R.drawable.elephant_list_back,
                 "Elephant",
                 "Elephants can swim,they use their trunk to breathe like a snorkel in deep water",

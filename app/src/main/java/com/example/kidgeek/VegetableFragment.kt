@@ -13,7 +13,7 @@ class VegetableFragment : Fragment() {
     init {
         dataList.add(
             Data(
-                R.drawable.ic_list_betroot,
+                R.drawable.list_betroot,
                 R.drawable.list_mercury_back,
                 "Beetroot",
                 "Beetroot contains betaine that relaxes the mind and is used to treat depression",
@@ -30,7 +30,7 @@ class VegetableFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_corn,
+                R.drawable.list_corn,
                 R.drawable.list_venus_back,
                 "Corn",
                 "Corn is called maize which is a native Taino word meaning \"sacred mother,\" or \"giver of life\"",
@@ -47,7 +47,7 @@ class VegetableFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_turnip,
+                R.drawable.list_turnip,
                 R.drawable.list_saturn_back,
                 "Turnip",
                 "Turnip is a type of root vegetables that belongs to the mustard family. It originates from Europe",
@@ -64,7 +64,7 @@ class VegetableFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_tomato,
+                R.drawable.list_tomato,
                 R.drawable.elephant_list_back,
                 "Tomato",
                 "Tomato was domesticated in the ancient Aztec civilization",
@@ -81,7 +81,7 @@ class VegetableFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_carrot,
+                R.drawable.list_carrot,
                 R.drawable.rabbit_list_back,
                 "Carrot",
                 "There are over 100 species of edible carrots today",
@@ -98,7 +98,7 @@ class VegetableFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_onion,
+                R.drawable.list_onion,
                 R.drawable.list_saturn_back,
                 "Onion",
                 "Onions are some of the oldest vegetables that were used by the first modern civilizations",
@@ -115,7 +115,7 @@ class VegetableFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_potato,
+                R.drawable.list_potato,
                 R.drawable.list_uranus_back,
                 "Potato",
                 "Potato is consisted for 20% solids and 80% of water",
@@ -132,7 +132,7 @@ class VegetableFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_eggplant,
+                R.drawable.list_eggplant,
                 R.drawable.hippo_list_back,
                 "Eggplant",
                 "Eggplants are not REALLY vegetables, they’re berries",
@@ -149,7 +149,7 @@ class VegetableFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_list_cabbage,
+                R.drawable.list_cabbage,
                 R.drawable.list_mars_back,
                 "Cabbage",
                 "Cabbage has been cultivated for longer than almost any other vegetable on record",
@@ -166,7 +166,7 @@ class VegetableFragment : Fragment() {
         )
         dataList.add(
             Data(
-                R.drawable.ic_capcicum,
+                R.drawable.list_capcicum,
                 R.drawable.list_earth_back,
                 "Capsicum",
                 "Capsicums originated in the Americas, but are now grown worldwide",
