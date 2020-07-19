@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.example.kidgeek.ViewPagerHeader xmlns:android="http://schemas.android.com/apk/res/android"
+<com.astro.kidgeek.ViewPagerHeader xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/motion_layout_viewpager"
@@ -120,4 +120,4 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="@dimen/back_height" />
-</com.example.kidgeek.ViewPagerHeader>
+</com.astro.kidgeek.ViewPagerHeader>
